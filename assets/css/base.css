@@ -1,0 +1,32 @@
+/*golbal style*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+   text-decoration: none;
+}
+button{
+    background-color: transparent;
+    border: 0;
+}
+ul{
+list-style-type: none;
+}
+.container{
+
+    width: calc( 100% - 236px );
+    margin:auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+ 
+@font-face {
+    font-family: 'Inter';
+    src: url(../fonts/Inder-Regular.ttf);
+}
