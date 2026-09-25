@@ -1,0 +1,33 @@
+.header{
+    padding: 30px 0;
+}
+.header .row{
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    width: 100%;
+}
+.list ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+}
+.userinfo{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap:12px;
+     font-family: Poppins;
+     font-size: 18px;
+     color: #000000;
+    
+}
+.list a{
+    font-size: 22px;
+    font-family: Poppins;
+   color: #5B5B5B;
+}
+.userinfo img{
+    width: 100%;
+}
