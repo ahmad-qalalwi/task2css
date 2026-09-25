@@ -31,3 +31,112 @@
 .userinfo img{
     width: 100%;
 }
+
+@media screen and (min-width:1001px) and (max-width:1231px) {
+ .container{
+   width: calc( 100% - 100px );
+ }
+   .list ul{
+    gap: 40px;
+   }
+
+ 
+}
+
+@media screen and (min-width:668px) and (max-width:1000px) {
+ .header{
+    padding: 20px 0;
+}
+.logo img{
+    width: 100%;
+}
+    .container{
+   width: calc( 100% - 50px );
+ }
+   .list ul{
+    gap: 25px;
+    
+   }
+   .list a{
+    font-size: 17px;
+   }
+.userinfo img{
+    width: 100%;
+    
+}
+.userinfo{
+    width: 40px;
+    font-size: 10px;
+    gap:9px;
+}
+.logo{
+    width: 60px;
+}
+ 
+}
+
+@media screen and (min-width:463px) and (max-width:667px) {
+.container{
+   width: calc( 100% - 13px );
+ }
+  .header{
+    padding: 16px 0;
+}
+.logo img{
+    width:100%;
+}
+ .list ul{
+    gap: 17px;
+   }
+    .list a{
+    font-size: 10px;
+   }
+.userinfo img{
+    width: 100%;
+
+}
+.userinfo{
+    width: 35px;
+    font-size: 8px;
+    gap:0;
+}
+.logo{
+    width: 50px;
+}
+}
+
+@media screen and (min-width:320px) and (max-width:462px) {
+.container{
+   width: calc( 100% - 13px );
+ }
+  .header{
+    padding: 16px 0;
+}
+.logo img{
+    width:100%;
+}
+ .list ul{
+    gap: 17px;
+   }
+    .list a{
+    font-size: 10px;
+   }
+.userinfo img{
+    width: 100%;
+
+}
+.userinfo{
+    width: 35px;
+    font-size: 8px;
+    gap:0;
+}
+.logo{
+    width: 50px;
+}
+
+/* 
+.list{
+    display: none;
+}  */
+
+}
