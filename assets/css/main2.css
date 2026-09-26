@@ -1,3 +1,12 @@
+.favouriteheader{
+    margin-top: 82px;
+    margin-bottom: 53px;
+    font-family: Poppins;
+color: #252641;
+font-size: 17px;
+
+}
+
 .favourites{
     margin-bottom: 95px;
 }
@@ -57,4 +66,144 @@
 }
 .color7{
     background-color: #25264133;
+}
+
+
+@media screen and (min-width:973px) and (max-width:1461px) {
+
+.favourite h2{
+    font-size: 20px;
+    padding-top: 15px;
+   
+}
+.favourite p{
+    font-size: 10px;
+    padding-top: 18px;
+    padding-bottom: 40px;
+}
+
+.centercolor{
+    margin: 20px auto 0 auto;
+      border-radius: 4px;
+      width: 70px;
+      height: 70px;
+}
+.favouriteheader{
+    margin-top: 60px;
+    margin-bottom: 43px;
+font-size: 13px;
+
+}
+
+
+
+}
+
+@media screen and (min-width:603px) and (max-width:972px) {
+
+.favourite h2{
+    font-size: 15px;
+    padding-top: 12px;  
+}
+.favourite p{
+    font-size: 8px;
+    padding-top: 12px;
+    padding-bottom: 30px;
+}
+
+.centercolor{
+    margin: 20px auto 0 auto;
+      border-radius: 3px;
+      width: 58px;
+      height: 58px;
+}
+.favouriteheader{
+    margin-top: 60px;
+    margin-bottom: 43px;
+font-size: 13px;
+
+}
+.favourites .row{
+    gap: 50px;
+}
+
+  .favourite{
+    
+    width: calc( ( 100% - 150px ) / 4 );
+    border-radius: 13px;
+  
+}
+
+}
+
+@media screen and (min-width:405px) and (max-width:602px) {
+
+.favourite h2{
+    font-size: 10px;
+    padding-top: 8px;  
+}
+.favourite p{
+    font-size: 6px;
+    padding-top: 8px;
+    padding-bottom: 14px;
+}
+
+.centercolor{
+    margin: 10px auto 0 auto;
+      border-radius: 3px;
+      width: 45px;
+      height: 45px;
+}
+.favouriteheader{
+    margin-top: 40px;
+    margin-bottom: 30px;
+   font-size: 10px;
+
+}
+.favourites .row{
+    gap: 30px;
+}
+
+  .favourite{
+    
+    width: calc( ( 100% - 90px ) / 4 );
+    border-radius: 8px;
+  
+}
+
+}
+
+@media screen and (min-width:320px) and (max-width:404px) {
+
+.favourite h2{
+    font-size: 7px;
+    padding-top: 6px;  
+}
+.favourite p{
+   display: none;
+}
+
+.centercolor{
+    margin: 10px auto 0 auto;
+      border-radius: 3px;
+      width: 45px;
+      height: 45px;
+}
+.favouriteheader{
+    margin-top: 30px;
+    margin-bottom: 20px;
+   font-size: 7px;
+
+}
+.favourites .row{
+    gap: 20px;
+}
+
+  .favourite{
+    
+    width: calc( ( 100% - 60px ) / 4 );
+    border-radius: 5px;
+  
+}
+
 }
