@@ -1,12 +1,16 @@
+.favourites{
+    margin-bottom: 95px;
+}
 .favourite{
     
-    border: solid 1px #696984;
+    border: solid 1px #69698433;
    text-align: center;
     width: calc( ( 100% - 264px ) / 4 );
+    border-radius: 20px;
   
 }
 .favourites .row{
-    justify-content:space-between;
+    gap: 88px;
 }
 .favourite h2{
     font-family: Poppins;
@@ -26,7 +30,7 @@
 
 .centercolor{
     margin: 30px auto 0 auto;
-      
+      border-radius: 4px;
       width: 90px;
       height: 90px;
       display: flex;
@@ -44,4 +48,13 @@
 }
 .color4{
     background-color: #00CBB833;
+}
+.color5{
+    background-color: #F48C0633;
+}
+.color6{
+    background-color: #EE645B33;
+}
+.color7{
+    background-color: #25264133;
 }
