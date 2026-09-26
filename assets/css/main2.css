@@ -1,0 +1,47 @@
+.favourite{
+    
+    border: solid 1px #696984;
+   text-align: center;
+    width: calc( ( 100% - 264px ) / 4 );
+  
+}
+.favourites .row{
+    justify-content:space-between;
+}
+.favourite h2{
+    font-family: Poppins;
+    font-size: 28px;
+    color: #000000;
+    padding-top: 20px;
+   
+}
+.favourite p{
+    font-family: Poppins;
+    color: #696984;
+    font-size: 14px;
+    padding-top: 25px;
+    padding-bottom: 40px;
+}
+
+
+.centercolor{
+    margin: 30px auto 0 auto;
+      
+      width: 90px;
+      height: 90px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+.color1{
+    background-color:#49BBBD33;
+}
+.color2{
+    background-color:#5B72EE33;
+}
+.color3{
+    background-color: #9DCCFF33;
+}
+.color4{
+    background-color: #00CBB833;
+}

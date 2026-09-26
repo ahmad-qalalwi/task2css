@@ -140,7 +140,7 @@
 }  */
 
 }
-
+/* finish part 1 */
 
 .text h2{
     padding: 50px;
@@ -479,5 +479,13 @@ width: calc( ( 100% - 50px ) / 3 );
     gap: 20px;
     
 }
+
+}
+.favouriteheader{
+    margin-top: 82px;
+    margin-bottom: 53px;
+    font-family: Poppins;
+color: #252641;
+font-size: 17px;
 
 }
