@@ -38,8 +38,16 @@ width: calc( ( 100% - 150px ) / 4 );
     margin-bottom: 20px;
     /* padding: 0 0 20px 20px;  */
 }
-.designicon p{
-    margin-left: 10px;
+
+.design{
+     margin-left: 10px;
+    margin-right: 15px;
+    font-family: Poppins;
+    color: #696984;
+    font-size: 14px;
+}
+.month{
+     margin-left: 10px;
     margin-right: 15px;
     font-family: Poppins;
     color: #696984;
@@ -79,16 +87,6 @@ margin-left: 18px;
     width: 45px;
     height: 45px;
 }
-.numoflessons{
-    width: fit-content;
-    font-family: Poppins;
-font-size: 14px;
-font-weight: 600;
-color: #939292;
-    margin-left: auto;
-    margin-right: 22px;
-    margin-bottom: 12px;
-}
 .row3{
     display: flex;
     flex-wrap: wrap;
@@ -120,4 +118,251 @@ color: rgba(0, 0, 0, 40%);
     font-size: 24px;
     color: #49BBBD;
     font-weight: 700;
+}
+
+@media screen and (min-width:621px) and (max-width:1321px) {
+ 
+.designicon img{
+    padding-top: 8px;
+    width: 14px;
+    margin-left: 10px;
+    margin-bottom: 8px;
+   
+}
+
+
+.design{
+     margin-left: 5px;
+    margin-right: 0;
+    font-size: 10px;
+}
+.month{
+     margin-left: 5px;
+    margin-right: 10px;
+    font-size: 8px;
+}
+.suggest a img{
+    width: calc( 100% - 14px );
+    margin:7px 7px 0 7px;
+}
+
+
+.head3 h2{
+    padding: 50px;
+    font-size: 20px;
+padding-left: 70px;
+}
+.head3 a{
+    
+    margin-left: auto;
+    margin-right: 30px;
+    font-size: 15px;
+    font-weight: 400;
+   
+}
+.suggest{
+width: calc( ( 100% - 70px ) / 4 );
+ border-radius: 10px;
+    margin-bottom: 100px;
+
+}
+.h31{
+font-size: 12px;
+font-weight: 400;
+margin-left: 10px;
+
+
+}
+
+
+.lorem3{
+    font-size: 12px;
+    padding: 10px 8px 10px 8px;
+}
+
+.userinfo3 h2{
+  font-size: 10px;
+}
+.userinfo3  img{
+    width: 25px;
+    height: 25px;
+}
+
+
+.row33{
+    gap: 9px;
+}
+.italic100 a{
+ 
+    font-size: 10px;
+}
+.green80{
+    margin-right: 8px;
+    font-size: 15px;
+    font-weight: 400;
+}
+}
+
+
+@media screen and (min-width:500px) and (max-width:620px) {
+ 
+.designicon img{
+    padding-top: 5px;
+    width: 11px;
+    margin-left: 7px;
+    margin-bottom: 5px;
+   
+}
+
+
+.design{
+     margin-left: 2px;
+    margin-right: 0;
+    font-size: 8px;
+}
+.month{
+     margin-left: 2px;
+    margin-right: 6px;
+    font-size: 8px;
+}
+.suggest a img{
+    width: calc( 100% - 12px );
+    margin:5px 5px 0 5px;
+}
+
+
+.head3 h2{
+    padding: 30px;
+    font-size: 17px;
+padding-left: 45px;
+}
+.head3 a{
+    
+    margin-left: auto;
+    margin-right: 25px;
+    font-size: 13px;
+    font-weight: 350;
+   
+}
+.suggest{
+width: calc( ( 100% - 65px ) / 4 );
+ border-radius: 8px;
+    margin-bottom: 50px;
+
+}
+.h31{
+font-size: 12px;
+font-weight: 400;
+margin-left: 10px;
+
+
+}
+
+
+.lorem3{
+    font-size: 10px;
+    padding: 7px 7px 7px 7px;
+}
+
+.userinfo3 h2{
+  font-size: 8px;
+}
+.userinfo3  img{
+    width: 20px;
+    height: 20px;
+}
+
+
+.row33{
+    gap: 5px;
+}
+.italic100 a{
+ 
+    font-size: 8px;
+}
+.green80{
+    margin-right: 7px;
+    font-size: 10px;
+    font-weight: 400;
+}
+}
+
+
+@media screen and (min-width:320px) and (max-width:500px) {
+ 
+.designicon img{
+    padding-top: 5px;
+    width: 11px;
+    margin-left: 7px;
+    margin-right: 7px;
+    margin-bottom: 5px;
+   
+}
+
+
+.design{
+    display: none;
+}
+.month{
+  display: none;
+}
+.suggest a img{
+    width: calc( 100% - 10px );
+    margin:5px 5px 0 5px;
+}
+
+
+.head3 h2{
+    padding: 20px;
+    font-size: 17px;
+padding-left: 15px;
+}
+.head3 a{
+    
+    margin-left: auto;
+    margin-right: 15px;
+    font-size: 12px;
+    font-weight: 300;
+   
+}
+.suggest{
+width: calc( ( 100% - 50px ) / 4 );
+ border-radius: 5px;
+    margin-bottom: 30px;
+
+}
+.h31{
+font-size: 11px;
+font-weight: 400;
+margin-left: 5px;
+
+
+}
+
+
+.lorem3{
+  display: none;
+}
+
+.userinfo3 h2{
+  font-size: 8px;
+}
+.userinfo3  img{
+    width: 20px;
+    height: 20px;
+}
+
+
+.row33{
+    gap: 5px;
+}
+.italic100 a{
+ 
+    font-size: 8px;
+}
+.green80{
+    margin-right: 7px;
+    font-size: 10px;
+    font-weight: 400;
+}
 }
