@@ -60,5 +60,12 @@ font-size: 22px;
 }
 .ancor{
     margin-top: 96px ;
-    gap: 42px;
+    gap: 21px;
+}
+.end{
+    font-family: Poppins;
+    font-size: 22px;
+    color: #B2B3CF;
+    padding:20px 0;
+    
 }
