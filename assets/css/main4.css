@@ -69,3 +69,169 @@ font-size: 22px;
     padding:20px 0;
     
 }
+
+@media screen and (min-width:550px) and (max-width:900px) {
+    
+.foot a img{
+     padding-top: 40px;
+     width: 30%;
+}
+
+
+.foot h2{
+margin-top: 45px;
+margin-bottom: 15px;
+font-weight: 250;
+    font-size: 18px;
+}
+
+[type="email"]
+{
+width: 30%;
+height: 40px;
+    border-radius: 60px;
+}
+
+
+[placeholder="Your Email"]{
+    font-size: 15px;
+    padding-left: 30px;
+}
+
+
+[type="submit"]{
+margin-left: 17px;
+    width: 15%;
+    height: 40px;
+    border-radius: 30px;
+    font-size: 15px;
+}
+
+.ancor a{
+font-size: 16px;
+}
+.ancor{
+    margin-top: 40px ;
+    gap: 17px;
+}
+.end{
+    font-size: 16px;
+    padding:10px 0;
+    
+}
+
+
+}
+
+
+
+
+
+@media screen and (min-width:375px) and (max-width:550px) {
+    
+.foot a img{
+     padding-top: 30px;
+     width: 30%;
+}
+
+
+.foot h2{
+margin-top: 25px;
+margin-bottom: 12px;
+font-weight: 250;
+    font-size: 12px;
+}
+
+[type="email"]
+{
+width: 30%;
+height: 30px;
+    border-radius: 40px;
+}
+
+
+[placeholder="Your Email"]{
+    font-size: 10px;
+    padding-left: 20px;
+}
+
+
+[type="submit"]{
+margin-left: 15px;
+    width: 15%;
+    height: 30px;
+    border-radius: 20px;
+    font-size: 10px;
+}
+
+.ancor a{
+font-size: 12px;
+}
+.ancor{
+    margin-top: 20px ;
+    gap: 15px;
+}
+.end{
+    font-size: 12px;
+    padding:8px 0;
+    
+}
+
+
+}
+
+
+
+
+@media screen and (min-width:320px) and (max-width:374px) {
+    
+.foot a img{
+     padding-top: 30px;
+     width: 30%;
+}
+
+
+.foot h2{
+margin-top: 25px;
+margin-bottom: 12px;
+font-weight: 250;
+    font-size: 12px;
+}
+
+[type="email"]
+{
+width: 30%;
+height: 25px;
+    border-radius: 30px;
+}
+
+
+[placeholder="Your Email"]{
+    font-size: 10px;
+    padding-left: 20px;
+}
+
+
+[type="submit"]{
+margin-left: 13px;
+    width: 15%;
+    height: 25px;
+    border-radius: 17px;
+    font-size: 7px;
+}
+
+.ancor a{
+font-size: 8px;
+}
+.ancor{
+    margin-top: 16px ;
+    gap: 10px;
+}
+.end{
+    font-size: 9px;
+    padding:8px 0;
+    
+}
+
+
+}
